@@ -2,7 +2,12 @@
 
 ## Pengertian
 Function yang memanggil dirinya sendiri di dalam suatu function.
-Dapat secara intuitif dan sederhana memecahkan masalah yang sulit diselesaikan dengan teknik prosedural. Contoh yang sering dipakai dalam recursive function adalah faktorial
+Dapat secara intuitif dan sederhana memecahkan masalah yang sulit diselesaikan dengan teknik prosedural.
+
+Function yang pertama kali dipanggil, adalah function yang terakhir kali selesai 
+dan function yang terakhir kali dipanggil, ia adalah function yang paling pertama selesai
+
+Contoh yang sering dipakai dalam recursive function adalah faktorial, menghitung deret angka.
 
 ## Kelebihan
 1. Function yang rumit dapat dipecah menjadi subfunction yang lebih kecil dengan menggunakan recursive
